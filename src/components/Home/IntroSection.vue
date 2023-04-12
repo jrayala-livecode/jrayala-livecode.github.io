@@ -1,5 +1,4 @@
 <template>
-    
     <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="intro-background">
         </div>
@@ -7,7 +6,7 @@
             <h1>{{ title }}</h1>
             <p>{{ shortDescription }}</p>
             <ul class="actions">
-                <li><a @click="goTo('')" class="button scrolly">{{ actionText }}</a></li>
+                <li><a class="button scrolly">{{ actionText }}</a></li>
             </ul>
         </div>
     </section>

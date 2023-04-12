@@ -1,14 +1,28 @@
 <template>
     <section id="sidebar">
-            <div class="inner">
-                <nav>
-                    <ul>
-                        <li><a href="#intro">Welcome</a></li>
-                        <li><a href="#one">Who we are</a></li>
-                        <li><a href="#two">What we do</a></li>
-                        <li><a href="#three">Get in touch</a></li>
-                    </ul>
-                </nav>
-            </div>
-	</section>
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li v-for="(item, index) in menuItems" :key="item.title">
+                        <a @click="scrollToRef(item.ref, item); setActive(index);" :class="{ active: item.active }">{{ item.title
+                        }}</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
 </template>
+
+<script>
+export default {
+    inject: ['scrollToRef'],
+    props: ['menuItems'],
+    emits:['setActive'],
+    methods: {
+        setActive(index) {
+            this.$emit('setActive', index);
+        }
+    }
+
+}
+</script>
