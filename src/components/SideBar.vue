@@ -25,8 +25,8 @@ export default {
     props: ['menuItems'],
     emits: ['setActive'],
     methods: {
-        setActive(index) {
-            this.$emit('setActive', index);
+        setActive(ref) {
+            this.$emit('setActive', ref);
         }
     }
 

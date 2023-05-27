@@ -133,7 +133,6 @@ export default {
       this.$refs[ref].$el.scrollIntoView({ behavior: "smooth", block: "end" })
     },
     setActive(index) {
-      console.log('triggered');
       this.menuItems.forEach(element => {
         element.active = false
       });

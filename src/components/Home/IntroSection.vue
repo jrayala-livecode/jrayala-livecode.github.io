@@ -6,7 +6,7 @@
             <h1>{{ title }}</h1>
             <p>{{ shortDescription }}</p>
             <ul class="actions">
-                <li><a class="button scrolly">{{ actionText }}</a></li>
+                <li><a class="button scrolly" @click="scrollToRef(contactForm);">{{ actionText }}</a></li>
             </ul>
         </div>
     </section>
@@ -20,9 +20,12 @@ export default {
             "title": "Joaquín Ayala, Web Developer",
             "shortDescription": "Experience in PHP, Javascript, Vue.js, Laravel, CSS/HTML5",
             "action": "",
-            "actionText": "Contact Me"
+            "actionText": "Contact Me",
+            contactForm: "contactForm"
         }
-    }
+    },
+    emits: ['setActive'],
+    inject: ['scrollToRef']
 }
 </script>
 
