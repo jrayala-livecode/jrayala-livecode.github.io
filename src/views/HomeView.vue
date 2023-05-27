@@ -26,7 +26,7 @@
       </InnerSection>
       <InnerSection :image="stillOne" ref="misFortalezas">
         <template v-slot:title>
-          Mis fortalezas
+          My Strengths
         </template>
         <template v-slot:paragraph>
           <ul>
@@ -69,61 +69,61 @@ export default {
   },
   data() {
     return {
-      menuItems: [
-        { ref: 'Inicio', title: 'Inicio' },
-        { ref: 'datosPersonales', title: 'Datos Personales' },
-        { ref: 'techStack', title: 'Stack tecnológico' },
-        { ref: 'misFortalezas', title: 'Mis Fortalezas' },
-        { ref: 'contactForm', title: 'Contacto' }
+      "menuItems": [
+        { "ref": "Home", "title": "Home" },
+        { "ref": "personalData", "title": "Personal Data" },
+        { "ref": "techStack", "title": "Tech Stack" },
+        { "ref": "strengths", "title": "My Strengths" },
+        { "ref": "contactForm", "title": "Contact" }
       ],
-      cvImage: cvImage,
-      techStack: techStack,
-      professionalProfileTitle: 'Perfil profesional',
-      professionalProfileDescription: "Soy Joaquín Ayala, desarrollador web apasionado por crear un código limpio y eficiente y siempre me esfuerzo por mantenerme actualizado con las últimas tendencias en el desarrollo web.",
-      techStackTitle: "Stack Tecnológico",
-      techStackItems: [
+      "cvImage": cvImage,
+      "techStack": techStack,
+      "professionalProfileTitle": "Professional Profile",
+      "professionalProfileDescription": "I'm Joaquín Ayala, a web developer passionate about creating clean and efficient code. I always strive to stay updated with the latest trends in web development.",
+      "techStackTitle": "Tech Stack",
+      "techStackItems": [
         {
-          title: 'PHP:',
-          description: ' Conocimiento sólido de programación orientada a objetos y frameworks MVC como Laravel, CodeIgniter y Symfony<br>Testing con PHPUnit'
+          "title": "PHP:",
+          "description": "Solid knowledge of object-oriented programming and MVC frameworks like Laravel, CodeIgniter, and Symfony. Testing with PHPUnit."
         },
         {
-          title: 'Javascript:',
-          description: ' Experiencia con Vanilla JavaScript y frameworks populares como Vue.js, React.js y Node.js con Express.js <br> Testing con Jest.js'
+          "title": "Javascript:",
+          "description": "Experience with Vanilla JavaScript and popular frameworks like Vue.js, React.js, and Node.js with Express.js. Testing with Jest.js."
         },
         {
-          title: "CSS/HTML5:",
-          description: " Amplio conocimiento de diseño responsivo y estándares de accesibilidad web, CSS, SASS y frameworks visuales como Bootstrap"
+          "title": "CSS/HTML5:",
+          "description": "Extensive knowledge of responsive design and web accessibility standards, CSS, SASS, and visual frameworks like Bootstrap."
         },
         {
-          title: "REST API Development:",
-          description: " Conocimientos en desarrollo y mantenimiento de API REST, testing con Postman"
+          "title": "REST API Development:",
+          "description": "Knowledge in developing and maintaining REST APIs, testing with Postman."
         },
         {
-          title: "Documentación, testing:",
-          description: " Desarrollo de documentación en todas las Web-app desarrolladas, con énfasis en legibilidad y facilidad de mantemiento e integración con otros servicios"
+          "title": "Documentation, testing:",
+          "description": "Development of documentation for all developed web apps, with a focus on readability and ease of maintenance and integration with other services, will adapt to any documentation format and tools."
         }
       ],
-      stillOne: stillOne,
-      personalStrengths: [
+      "stillOne": stillOne,
+      "personalStrengths": [
         {
-          name: "Lenguajes de programación",
-          description: "Tengo experiencia en varios lenguajes, incluyendo Python, JavaScript, y Java."
+          "name": "Programming Languages",
+          "description": "I have experience in various languages, including Python, JavaScript, and Java."
         },
         {
-          name: "Desarrollo web",
-          description: "Soy hábil en el desarrollo de aplicaciones web con HTML, CSS, y JavaScript. También tengo experiencia con frameworks como React y Vue."
+          "name": "Web Development",
+          "description": "I'm skilled in web application development using HTML, CSS, and JavaScript. I also have experience with frameworks like React and Vue."
         },
         {
-          name: "Bases de datos",
-          description: "He trabajado con bases de datos SQL y NoSQL, como MySQL y MongoDB, y sé cómo diseñar y consultar bases de datos eficientes."
+          "name": "Databases",
+          "description": "I have worked with SQL and NoSQL databases like MySQL and MongoDB, and I know how to design and query efficient databases."
         },
         {
-          name: "Desarrollo de aplicaciones móviles",
-          description: "He creado aplicaciones móviles para iOS y Android usando React Native, lo que me ha dado una comprensión completa de cómo construir y depurar aplicaciones móviles."
+          "name": "Mobile App Development",
+          "description": "I have created mobile applications for iOS and Android using React Native, which has given me a comprehensive understanding of building and debugging mobile apps."
         },
         {
-          name: "Habilidades de comunicación",
-          description: "Soy capaz de comunicar ideas y problemas técnicos de manera clara y concisa tanto a equipos técnicos como no técnicos."
+          "name": "Communication Skills",
+          "description": "I am capable of communicating ideas and technical issues clearly and concisely to both technical and non-technical teams."
         }
       ]
     }
