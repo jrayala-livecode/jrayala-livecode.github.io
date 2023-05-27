@@ -51,7 +51,7 @@
 import Intro from '../components/Home/IntroSection.vue'
 import InnerSection from '../components/UI/InnerSection.vue'
 import OuterSection from '../components/UI/OuterSection.vue';
-import cvImage from '@/assets/images/MeSquared.jpg';
+import keyboard from '@/assets/images/keyboard.jpg';
 import techStack from '@/assets/images/techStack.jpg';
 import stillOne from '@/assets/images/StillOne.png';
 import ContactForm from '../components/Home/ContactForm.vue';
@@ -76,7 +76,7 @@ export default {
         { "ref": "strengths", "title": "My Strengths" },
         { "ref": "contactForm", "title": "Contact" }
       ],
-      "cvImage": cvImage,
+      "cvImage": keyboard,
       "techStack": techStack,
       "professionalProfileTitle": "Professional Profile",
       "professionalProfileDescription": "I'm Joaquín Ayala, a web developer passionate about creating clean and efficient code. I always strive to stay updated with the latest trends in web development.",
