@@ -1,154 +1,364 @@
 <template>
     <!-- Main -->
-    <section id="main" class="wrapper">
+    <main id="main" class="wrapper" role="main">
         <div class="inner">
             <h1 class="major">My Experience</h1>
-            <!-- Text -->
-            <!-- Twin.cl -->
-            <!-- Twin.cl -->
-            <section>
-                <h2>Twin.cl</h2>
-                <p>December 2018 - June 2019</p>
+
+            <!-- Worldpanel by Kantar -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">Worldpanel by Kantar</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2024-04">April 2024</time> - <span itemprop="endDate">Present</span></p>
+                </header>
                 <hr />
-                <p>Fullstack Developer</p>
+                <p itemprop="jobTitle">Software Developer</p>
                 <ul>
-                    <li>Food court management system based on Arduino, Raspberry Pi, and PHP with asynchronous requests.
-                    </li>
-                    <li>Currently operational in a mining company, serving at least 2000 users per day.</li>
+                    <li itemprop="description">Developing internal systems using FastAPI, Electron.js, Vue.js, Vuetify, and Python GUIs.</li>
+                    <li itemprop="description">Created an AI and OCR-powered item classification app, significantly accelerating internal workflows.</li>
+                    <li itemprop="description">Adhering to clean code practices for maintainable, scalable solutions within a Microsoft-restricted environment.</li>
                 </ul>
-                <p>Technological Stack: HTML/CSS, Javascript, CodeIgniter, PHP, MySQL</p>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">FastAPI, Python, Electron.js, Vue.js, Vuetify, MSSQL</span></p>
                 <hr />
-            </section>
+            </article>
 
-            <!-- TicketSystem -->
-            <section>
-                <h2>TicketSystem</h2>
-                <p>August 2019 - December 2019</p>
+            <!-- MAVRK Studio -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">MAVRK Studio</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2023-06">June 2023</time> - <span itemprop="endDate">Present</span></p>
+                </header>
                 <hr />
-                <p>PHP Application for receiving support tickets for a TV Cable system.</p>
+                <p itemprop="jobTitle">Fullstack Developer</p>
                 <ul>
-                    <li>The client receives tickets from all camps of the BHP Spence mining company (approximately 700 beds
-                        with rotating shifts) to provide support to users in case of a TV Cable system outage.</li>
+                    <li itemprop="description">Customized Shopify themes using PHP, Liquid, SASS, and JS.</li>
+                    <li itemprop="description">Collaborated with designers and marketing to translate concepts into technical implementations.</li>
                 </ul>
-                <p>Technological Stack: HTML/CSS, Javascript, CodeIgniter, PHP, MySQL</p>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">PHP, Liquid, Shopify, SASS, JavaScript</span></p>
                 <hr />
-            </section>
+            </article>
 
-            <!-- Twin-VC -->
-            <section>
-                <h2>Twin-VC</h2>
-                <p>January 2020 - May 2020</p>
+            <!-- C2 Games -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">C2 Games</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2023-06">June 2023</time> - <time itemprop="endDate" datetime="2024-05">May 2024</time></p>
+                </header>
                 <hr />
-                <p>A video conferencing system based on Jitsi implemented to facilitate company communication during the
-                    pandemic.</p>
-                <p>Technological Stack: Linux, Jitsi, React.js</p>
-                <hr />
-            </section>
-
-            <!-- Twin App -->
-            <section>
-                <h2>Twin App</h2>
-                <p>January 2019 - March 2021</p>
-                <hr />
-                <p>Management system for the company's accounting department, with stock control, invoice entry, and
-                    purchase order issuance.</p>
-                <p>Technological Stack: PHP, Javascript, Bootstrap, HTML/CSS</p>
-                <hr />
-            </section>
-
-            <!-- COSOF -->
-            <section>
-                <h2>COSOF</h2>
-                <p>July 2021 - June 2022</p>
-                <hr />
-
-                <!-- Food Programs -->
-                <h3>Food Programs</h3>
-                <p>July 2021 - June 2022</p>
+                <p itemprop="jobTitle">Game Developer – Casino Game Project</p>
                 <ul>
-                    <li>Automated food delivery system programming for food program patients using the company's custom PHP
-                        framework.</li>
-                    <li>Database modeling, code debugging and troubleshooting, and code refactoring using Clean Code
-                        standards.</li>
-                    <li>Improved system speed by changing pure PHP requests to RESTful APIs.</li>
-                    <li>Deployed system nationwide in Chile, with an estimated minimum of 10,000 daily users.</li>
-                    <li>Separated PHP backend code from PHP frontend to JQuery/Javascript using updated standards.</li>
-                    <li>Improved views with Bootstrap 3.2</li>
+                    <li itemprop="description">Developed a custom casino game using Godot Engine.</li>
+                    <li itemprop="description">Built a fully integrated backend with Laravel REST API for data management and authentication.</li>
+                    <li itemprop="description">Handled UI design and core gameplay logic based on mathematical modeling.</li>
                 </ul>
-                <p>Technological Stack: HTML/CSS, Javascript, COSOF Framework, PHP, MySQL</p>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">Godot, Laravel, PHP, REST API, PostgreSQL</span></p>
                 <hr />
-            </section>
+            </article>
 
             <!-- Youtouch -->
-            <section>
-                <h2>Youtouch</h2>
-                <p>August 2022 - January 2023</p>
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">Youtouch</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2022-07">July 2022</time> - <time itemprop="endDate" datetime="2023-01">January 2023</time></p>
+                </header>
                 <hr />
-
-                <!-- Air Express Cargo - Backend -->
-                <h3>Air Express Cargo - Backend</h3>
-                <p>August 2022 - October 2022</p>
+                <p itemprop="jobTitle">Fullstack Developer</p>
                 <ul>
-                    <li>Creation and maintenance of a RESTful API built in Laravel, using MySQL databases and notifications
-                        with Sendgrid, Spatie, and other Laravel libraries.</li>
+                    <li itemprop="description">Designed and implemented a scalable REST API in Laravel, supporting 1,000+ concurrent users.</li>
+                    <li itemprop="description">Built a Vue.js frontend with a polished UI and seamless ReCaptcha-secured user experience.</li>
                 </ul>
-                <p>Technological Stack: Laravel, PHP, Postman, PostgreSQL</p>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">Laravel, Vue.js, PHP, PostgreSQL, ReCaptcha</span></p>
                 <hr />
+            </article>
 
-                <!-- Air Express Cargo - Frontend -->
-                <h3>Air Express Cargo - Frontend</h3>
-                <p>October 2022 - November 2022</p>
-                <ul>
-                    <li>Creation and maintenance of a Web App built in Vue.js, connected with the backend RESTful API built
-                        during the employment period.</li>
-                </ul>
-                <p>Technological Stack: Laravel, PHP, Postman, PostgreSQL</p>
+            <!-- Archipielago Circular -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">Archipiélago Circular</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2022-08">August 2022</time> - <time itemprop="endDate" datetime="2022-10">October 2022</time></p>
+                </header>
                 <hr />
-            </section>
-
-            <!-- PROJECTS -->
-            <section>
-                <h2>PROJECTS</h2>
-
-                <h3>EvaluaIsapres</h3>
-                <p><b>2020</b>  - <a href="https://evaluaisapres.cl">[EvaluaIsapres.cl]</a> </p>
+                <p itemprop="jobTitle">Lead Developer – Recycling Platform</p>
                 <ul>
-                    <li>Construction of a simple website for a Health Insurance Company in Chile.</li>
+                    <li itemprop="description">Developed a Vue.js front-end integrated with a WordPress headless CMS for environmental education and recycling promotion.</li>
+                    <li itemprop="description">Implemented a custom comment system with ReCaptcha and full WordPress backend integration.</li>
                 </ul>
-                <!-- Eggplant.fi -->
-                <h3>Eggplant.fi, Crypto Slot Machine</h3>
-                <p><b>2021</b> - <a href="https://eggplant.fi/games">[Eggplant.fi/games]</a></p>
-                <ul>
-                    <li>Project where I created a cryptocurrency slot machine that was not implemented by the page owners.
-                    </li>
-                    <li>Includes a game in React.js and calls to methods of a smart contract on the blockchain.</li>
-                </ul>
-
-                <!-- Clown.lol -->
-                <h3>Clown.lol, Frontend for a Crypto Game</h3>
-                <p><b>2021</b> - <a href="https://clown.lol">[Clown.lol]</a> </p>
-                <ul>
-                    <li>Project in React.js, utilizing advanced CSS and making calls to smart contracts.</li>
-                    <li>Used technologies for multilingual support, responsiveness, and React.js Bootstrap.</li>
-                </ul>
-
-                <!-- Archipielago Circular -->
-                <h3>Archipielago Circular</h3>
-                <p><b>2023</b> - <a href="https://archipielagocircular.cl">[Archipielago Circular]</a> </p>
-                <ul>
-                    <li>Construction of a simple website for a sustainable development company in Chile.</li>
-                </ul>
-
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">Vue.js, WordPress (headless), ReCaptcha</span></p>
                 <hr />
-            </section>
+            </article>
 
+            <!-- COSOF -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">COSOF</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2021-06">June 2021</time> - <time itemprop="endDate" datetime="2022-05">May 2022</time></p>
+                </header>
+                <hr />
+                <p itemprop="jobTitle">Fullstack Developer – Ministry of Health Projects</p>
+                <ul>
+                    <li itemprop="description">Worked on national-level health systems serving 20,000+ users daily using a custom PHP framework.</li>
+                    <li itemprop="description">Reduced report load times significantly through backend optimization.</li>
+                    <li itemprop="description">Improved user experience by minimizing full-page reloads and enhancing frontend responsiveness.</li>
+                </ul>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">Custom PHP Framework, JavaScript, MySQL</span></p>
+                <hr />
+            </article>
 
+            <!-- EvaluaIsapres -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">EvaluaIsapres</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2021-05">May 2021</time> - <time itemprop="endDate" datetime="2021-08">August 2021</time></p>
+                </header>
+                <hr />
+                <p itemprop="jobTitle">Fullstack Developer</p>
+                <ul>
+                    <li itemprop="description">Developed both frontend and backend for EvaluaIsapres.cl with UI animations and interactive forms.</li>
+                </ul>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">PHP, MySQL, JavaScript, HTML/CSS</span></p>
+                <hr />
+            </article>
+
+            <!-- Clown.lol -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">Clown.lol</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2021-06">June 2021</time> - <time itemprop="endDate" datetime="2021-08">August 2021</time></p>
+                </header>
+                <hr />
+                <p itemprop="jobTitle">React Developer – Blockchain Casino Game</p>
+                <ul>
+                    <li itemprop="description">Built a React-based betting game integrated with Binance Smart Chain using programmable NFTs.</li>
+                    <li itemprop="description">Tested with Truffle Suite and ensured full contract interaction.</li>
+                </ul>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">React.js, Web3, Solidity, Truffle Suite</span></p>
+                <hr />
+            </article>
+
+            <!-- Twin (Multiple Projects) -->
+            <article itemscope itemtype="https://schema.org/WorkExperience">
+                <header>
+                    <h2 itemprop="employer" itemscope itemtype="https://schema.org/Organization">
+                        <span itemprop="name">Twin</span>
+                    </h2>
+                    <p><time itemprop="startDate" datetime="2018-10">October 2018</time> - <time itemprop="endDate" datetime="2021-03">March 2021</time></p>
+                </header>
+                <hr />
+                <p itemprop="jobTitle">Fullstack Developer – IoT and Web Systems</p>
+                <ul>
+                    <li itemprop="description">Developed food court management systems using Raspberry Pi, Arduino, PHP, and JS.</li>
+                    <li itemprop="description">Built Twin App for stock and invoice management in accounting.</li>
+                    <li itemprop="description">Developed internal video conferencing tool using Jitsi and React during the pandemic.</li>
+                </ul>
+                <p><strong>Technological Stack:</strong> <span itemprop="skills">PHP, CodeIgniter, React.js, HTML/CSS, MySQL, Jitsi, Node.js</span></p>
+                <hr />
+            </article>
         </div>
-    </section>
+    </main>
 </template>
+
 
 <script>
 export default {
+    name: 'GenericSection',
+    mounted() {
+        // Add structured data for professional experience
+        this.addExperienceStructuredData();
+        
+        // Update document meta for this page
+        this.updatePageMeta();
+    },
+    beforeUnmount() {
+        // Clean up structured data
+        this.removeStructuredData();
+    },
+    methods: {
+        addExperienceStructuredData() {
+            const workExperience = [
+                {
+                    "@type": "WorkExperience",
+                    "identifier": {
+                        "@type": "PropertyValue",
+                        "name": "Position",
+                        "value": "Software Developer"
+                    },
+                    "skills": "FastAPI, Python, Electron.js, Vue.js, Vuetify, MSSQL, AI, OCR",
+                    "jobTitle": "Software Developer",
+                    "employer": {
+                        "@type": "Organization",
+                        "name": "Worldpanel by Kantar"
+                    },
+                    "startDate": "2024-04",
+                    "description": "Developing internal systems using FastAPI, Electron.js, Vue.js, Vuetify, and Python GUIs. Created an AI and OCR-powered item classification app, significantly accelerating internal workflows."
+                },
+                {
+                    "@type": "WorkExperience",
+                    "identifier": {
+                        "@type": "PropertyValue",
+                        "name": "Position",
+                        "value": "Fullstack Developer"
+                    },
+                    "skills": "PHP, Liquid, Shopify, SASS, JavaScript",
+                    "jobTitle": "Fullstack Developer",
+                    "employer": {
+                        "@type": "Organization",
+                        "name": "MAVRK Studio"
+                    },
+                    "startDate": "2023-06",
+                    "description": "Customized Shopify themes using PHP, Liquid, SASS, and JS. Collaborated with designers and marketing to translate concepts into technical implementations."
+                },
+                {
+                    "@type": "WorkExperience",
+                    "identifier": {
+                        "@type": "PropertyValue",
+                        "name": "Position",
+                        "value": "Game Developer"
+                    },
+                    "skills": "Godot, Laravel, PHP, REST API, PostgreSQL",
+                    "jobTitle": "Game Developer",
+                    "employer": {
+                        "@type": "Organization",
+                        "name": "C2 Games"
+                    },
+                    "startDate": "2023-06",
+                    "endDate": "2024-05",
+                    "description": "Developed a custom casino game using Godot Engine. Built a fully integrated backend with Laravel REST API for data management and authentication."
+                },
+                {
+                    "@type": "WorkExperience",
+                    "identifier": {
+                        "@type": "PropertyValue",
+                        "name": "Position",
+                        "value": "Fullstack Developer"
+                    },
+                    "skills": "Laravel, Vue.js, PHP, PostgreSQL, ReCaptcha",
+                    "jobTitle": "Fullstack Developer",
+                    "employer": {
+                        "@type": "Organization",
+                        "name": "Youtouch"
+                    },
+                    "startDate": "2022-07",
+                    "endDate": "2023-01",
+                    "description": "Designed and implemented a scalable REST API in Laravel, supporting 1,000+ concurrent users. Built a Vue.js frontend with a polished UI and seamless ReCaptcha-secured user experience."
+                }
+            ];
 
+            const personSchema = {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Joaquín Ayala",
+                "jobTitle": "Software Developer",
+                "hasOccupation": workExperience,
+                "url": "https://jrayala-livecode.github.io/experience",
+                "workLocation": {
+                    "@type": "Place",
+                    "name": "Remote/Global"
+                },
+                "knowsAbout": [
+                    "Software Development",
+                    "Web Development",
+                    "Game Development",
+                    "Full Stack Development",
+                    "Frontend Development",
+                    "Backend Development",
+                    "PHP",
+                    "JavaScript",
+                    "Vue.js",
+                    "React.js",
+                    "Laravel",
+                    "Python",
+                    "FastAPI",
+                    "Godot Engine",
+                    "Shopify Development",
+                    "REST API",
+                    "Database Design",
+                    "AI Integration",
+                    "OCR Technology"
+                ]
+            };
+
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.id = 'experience-structured-data';
+            script.textContent = JSON.stringify(personSchema);
+            document.head.appendChild(script);
+        },
+        
+        updatePageMeta() {
+            // Update page title
+            document.title = 'Professional Experience - Joaquín Ayala | Software Developer Portfolio';
+            
+            // Update or add meta description
+            this.updateMetaTag('description', 'Explore Joaquín Ayala\'s professional experience as a Software Developer. Over 6+ years of experience in web development, game development, and full-stack solutions using PHP, JavaScript, Vue.js, React.js, Laravel, Python, and modern technologies.');
+            
+            // Update or add meta keywords
+            this.updateMetaTag('keywords', 'software developer experience, web developer portfolio, PHP developer, JavaScript developer, Vue.js developer, React.js developer, Laravel developer, Python developer, full stack developer, game developer, Joaquín Ayala experience');
+            
+            // Update Open Graph tags
+            this.updateMetaProperty('og:title', 'Professional Experience - Joaquín Ayala | Software Developer');
+            this.updateMetaProperty('og:description', 'Explore my professional journey as a Software Developer with over 6+ years of experience in web development, game development, and full-stack solutions.');
+            this.updateMetaProperty('og:url', 'https://jrayala-livecode.github.io/experience');
+            this.updateMetaProperty('og:type', 'profile');
+            
+            // Update Twitter Card tags
+            this.updateMetaTag('twitter:title', 'Professional Experience - Joaquín Ayala | Software Developer');
+            this.updateMetaTag('twitter:description', 'Explore my professional journey as a Software Developer with over 6+ years of experience in web development, game development, and full-stack solutions.');
+            
+            // Add canonical link
+            this.updateCanonicalLink('https://jrayala-livecode.github.io/experience');
+        },
+        
+        updateMetaTag(name, content) {
+            let meta = document.querySelector(`meta[name="${name}"]`);
+            if (!meta) {
+                meta = document.createElement('meta');
+                meta.name = name;
+                document.head.appendChild(meta);
+            }
+            meta.content = content;
+        },
+        
+        updateMetaProperty(property, content) {
+            let meta = document.querySelector(`meta[property="${property}"]`);
+            if (!meta) {
+                meta = document.createElement('meta');
+                meta.setAttribute('property', property);
+                document.head.appendChild(meta);
+            }
+            meta.content = content;
+        },
+        
+        updateCanonicalLink(href) {
+            let canonical = document.querySelector('link[rel="canonical"]');
+            if (!canonical) {
+                canonical = document.createElement('link');
+                canonical.rel = 'canonical';
+                document.head.appendChild(canonical);
+            }
+            canonical.href = href;
+        },
+        
+        removeStructuredData() {
+            const script = document.getElementById('experience-structured-data');
+            if (script) {
+                document.head.removeChild(script);
+            }
+        }
+    }
 }
 </script>

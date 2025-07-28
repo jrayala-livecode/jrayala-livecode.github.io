@@ -3,10 +3,8 @@
         <div class="inner">
             <nav>
                 <ul>
-                    <li v-for="(item, index) in  menuItems " :key="item.title">
-                        <a @click="scrollToRef(item.ref, item); setActive(index);" :class="{ active: item.active }">{{
-                            item.title
-                            }}</a>
+                    <li v-for="(item, index) in  menuItems " :key="item.title" @click="scrollToRef(item.ref, item); setActive(index);" :class="{ active: item.active }">
+                        <a>{{ item.title }}</a>
                     </li>
                     <li>
                         <router-link :to="'/experience'">
@@ -27,6 +25,7 @@ export default {
     methods: {
         setActive(ref) {
             this.$emit('setActive', ref);
+            console.log('Active item set to:', ref);
         }
     }
 
